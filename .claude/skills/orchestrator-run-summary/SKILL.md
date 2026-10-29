@@ -5,7 +5,7 @@ disable-model-invocation: true
 ---
 # Prompt Template: Orchestrator Run Summary
 
-When invoked after an orchestrator workflow run, generate a concise, self-contained Markdown report summarizing the run's events and outcomes. The report should be understandable to someone who did not observe the run. Include:
+When invoked after an orchestrator workflow run, generate a concise, self-contained Markdown report summarizing the run's events and outcomes. The report should be understandable to someone who did not observe the run. The report must be created under the `artifacts/` folder with the name `orchestrator-run-summary.md`. Include:
 
 A concise, self-contained Markdown report explaining what happened during this orchestrator workflow run.
 
